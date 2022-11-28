@@ -9,12 +9,16 @@ let listNumbers = [
 
 
 
-let userNumber = parseInt(prompt('inserisci un numero'));
+let userNumber;
+let total = 0 ;
 
-while ( listNumbers = userNumber < 50 ) {
-    
+while ( total < 50 ) {
+
     userNumber = parseInt(prompt('inserisci un numero'));
-    listNumbers.push('userNumber')
+    total += userNumber 
+    listNumbers.push(userNumber);
+    console.log( listNumbers);
+
     
 }
 
