@@ -9,10 +9,10 @@
 
 let userNumber = parseInt(prompt('scegli un numero da 1 a 10'))
 
-while ( userNumber < 10 ) {
+while ( userNumber > 10 ) {
     userNumber = parseInt(prompt('scegli un numero da 1 a 10'))
-    i++;
+    userNumber++;
     
 }
 
-console.log(userNumber )
+console.log( userNumber )
