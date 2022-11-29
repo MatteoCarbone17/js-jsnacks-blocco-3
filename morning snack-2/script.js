@@ -9,23 +9,32 @@
 const listNumber = [
     1,
     2,
-    45,
-    676,
-    34,
-    33,
-    4535,
+    4,
+    6,
+    3,
+    3,
+    4,
+];
+
+const secondListNumber = [
+    1,
+    2,
+    3,
+    5,
+    6,
 ];
 
 
-function sumArrayElement(listNumber) {
+function sumArrayElement(array) {
     let sum = 0; 
-    for (let i = 0; i< listNumber.length ; i++) {
-        sum += listNumber[i];
+    
+    for (let i = 0; i < array.length ; i++) {
+        sum += array[i];
     }
 
     return sum ;
 
 }
 
-let sum = sumArrayElement();
-console.log(sum)
+console.log(sumArrayElement (listNumber));
+console.log(sumArrayElement (secondListNumber));
