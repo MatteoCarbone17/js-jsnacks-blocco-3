@@ -37,7 +37,6 @@
 
  for (let i = 0; i < array.length; i++) {
    
-    let i = 0; 
    
     if ( array[i] % 2 === 0 ) {
         divPari.appendChild(getElement(array[i]));
